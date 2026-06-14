@@ -14,7 +14,7 @@ własnym datasecie).
 
 Nagranie pokazujące działanie głosu w Home Assistant:
 
-<video src="https://github.com/user-attachments/assets/e96525fb-3a0f-4add-a446-9c926dbc3ba3" controls width="400"></video>
+<video src="https://github.com/user-attachments/assets/16681aee-ec04-4687-bcef-70bc4e9109ad" controls width="400"></video>
 
 ## Zawartość repo
 

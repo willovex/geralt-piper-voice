@@ -10,6 +10,11 @@ Gotowy model: [`model/geralt.onnx`](model/geralt.onnx) +
 (fine-tuning od `epoch=5001` modelu bazowego, czyli ~216 dodatkowych epok na
 własnym datasecie).
 
+## Demo
+
+[`media/demo.mov`](media/demo.mov) — krótkie nagranie pokazujące działanie
+głosu w Home Assistant.
+
 ## Zawartość repo
 
 - `model/` — finalny eksport ONNX (Piper) gotowy do wgrania do `/share/piper/` w HA.

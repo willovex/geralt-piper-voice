@@ -12,8 +12,9 @@ własnym datasecie).
 
 ## Demo
 
-[`media/demo.mov`](media/demo.mov) — krótkie nagranie pokazujące działanie
-głosu w Home Assistant.
+Nagranie pokazujące działanie głosu w Home Assistant:
+
+<video src="https://github.com/willovex/geralt-piper-voice/releases/download/demo-video/demo.mov" controls width="400"></video>
 
 ## Zawartość repo
 

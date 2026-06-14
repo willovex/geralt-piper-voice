@@ -1,0 +1,18 @@
+FROM python:3.10-slim
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    espeak-ng espeak-ng-data libespeak-ng1 \
+    build-essential git wget ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir -U pip==24.0 setuptools wheel
+
+RUN git clone --depth 1 https://github.com/rhasspy/piper.git /opt/piper
+
+WORKDIR /opt/piper/src/python
+
+RUN pip install --no-cache-dir -e .
+RUN pip install --no-cache-dir "numpy<2" "setuptools<81" "torchmetrics<0.12" six
+RUN bash build_monotonic_align.sh
+
+WORKDIR /data

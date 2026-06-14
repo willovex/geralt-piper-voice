@@ -14,7 +14,7 @@ własnym datasecie).
 
 Nagranie pokazujące działanie głosu w Home Assistant:
 
-<video src="https://raw.githubusercontent.com/willovex/geralt-piper-voice/master/media/demo-2.mov" controls width="400"></video>
+<video src="https://github.com/user-attachments/assets/e96525fb-3a0f-4add-a446-9c926dbc3ba3" controls width="400"></video>
 
 ## Zawartość repo
 

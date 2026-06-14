@@ -46,6 +46,10 @@ Pełny opis i historia w [`docs/HISTORY.md`](docs/HISTORY.md).
 Dataset (surowe nagrania + cache mel-spektrogramów, ~21GB) nie jest częścią
 tego repo — zbyt duży na GitHub.
 
+Pełny checkpoint treningowy `epoch=5217-step=50634.ckpt` (807MB, z optimizer
+state, do kontynuacji fine-tuningu) jest dostępny w
+[Releases](../../releases/tag/v1.0-epoch5217).
+
 ## Trening
 
 - Bazowy checkpoint: `pl_PL-gosia-medium epoch=5001` (rhasspy/piper-checkpoints)

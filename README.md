@@ -14,7 +14,9 @@ własnym datasecie).
 
 Nagranie pokazujące działanie głosu w Home Assistant:
 
-<video src="https://github.com/willovex/geralt-piper-voice/releases/download/demo-video/demo.mov" controls width="400"></video>
+![Demo](media/demo.gif)
+
+(GIF bez dźwięku — [pełne nagranie z dźwiękiem (.mov)](https://github.com/willovex/geralt-piper-voice/releases/download/demo-video/demo.mov))
 
 ## Zawartość repo
 

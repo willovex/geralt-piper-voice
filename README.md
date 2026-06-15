@@ -74,3 +74,14 @@ Aby kontynuować fine-tuning od `epoch=5217`:
    (ustaw `RESUME_CKPT` na `epoch=5217-step=50634.ckpt`).
 3. Po każdej epoce wyeksportuj ONNX:
    `python -m piper_train.export_onnx <checkpoint> model/geralt.onnx`
+
+## Wsparcie
+
+> *"Świat nie jest czarno-biały. Naprawdę szarym jest świat. Ale ten projekt
+> kosztował kilka GPU-godzin na RunPodzie i więcej niż jednego wirtualnego
+> Geralta, który nie chciał współpracować."*
+
+Jeśli ten projekt okazał się przydatny i chcesz postawić mi piwo w Kaer
+Morhen (albo po prostu kawę) — zapraszam:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Willovex)

@@ -1,5 +1,7 @@
 # Geralt Voice — Piper TTS
 
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/Willovex)
+
 Klon głosu Geralta z Rivii (Jacek Rozenek, polski dubbing Wiedźmin 3) jako
 lokalny, darmowy głos TTS [Piper](https://github.com/rhasspy/piper),
 fine-tuned z bazowego modelu `pl_PL-gosia-medium` (medium quality, 22050 Hz),
